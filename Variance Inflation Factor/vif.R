@@ -50,7 +50,7 @@ summary(lm(BP~., data = df))
 # 
 # Residual standard error: 0.4072 on 13 degrees of freedom
 # Multiple R-squared:  0.9962,	Adjusted R-squared:  0.9944 
-F-statistic: 560.6 on 6 and 13 DF,  p-value: 6.395e-15
+# F-statistic: 560.6 on 6 and 13 DF,  p-value: 6.395e-15
 
 # Modeling without Weight
 vif(lm(BP~Age+BSA+Dur+Pulse+Stress, data = df))
