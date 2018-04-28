@@ -3,7 +3,7 @@
 ## Concept:- Variance Inflation Factor (VIF) gives measure of inflation of variance of an independent variable 
 #            in presence of other correlated independent varibales. It is a great tool to check multicollinearity.
 
-df <- read.table('C:/Users/ragesah.ORADEV/Desktop/Assignment/ML/Codes and Datasets-20180401T035153Z-001/Codes and Datasets/bloodpressure.txt', header = TRUE)
+df <- read.table('bloodpressure.txt', header = TRUE)
 head(df)
 dim(df)
 str(df)
